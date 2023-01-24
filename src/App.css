@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  width: 600px;
+  margin: 87px auto;
+  flex-wrap: wrap;
+  border: 1px solid #aba8a8;
+  padding: 25px;
+}
+
+.input-container{
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-input{
+  padding: 5px;
+}
+
+
+label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bolder;
+}
+
+.error-message-label{
+  color: red;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+.input-danger{
+  color: white;
+  background-color: rgb(247, 108, 108);
+}
